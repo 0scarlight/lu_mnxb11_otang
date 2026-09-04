@@ -1,0 +1,19 @@
+.
+├── [drwx------         115]  400201_oscar_tang_hw1
+│   ├── [drwxr-xr-x          30]  2550
+│   │   └── [drwxr-xr-x          29]  BlueOnyx
+│   │       └── [drwx------          60]  PRIVATE
+│   │           ├── [-rw-------         464]  hw1-keypair
+│   │           └── [-rw-r--r--         102]  hw1-keypair.pub
+│   ├── [-rw-r--r--       15974]  Chapter6-of-the-course-manual-in-text-format.txt
+│   └── [-rw-r--r--     5287661]  Course-Manual.pdf
+├── [drwx------         157]  400212_manuel_lorenterodriguez_hw1 [error opening dir]
+├── [drwx------        4096]  400216_Yoline_Ruiter_hw1 [error opening dir]
+├── [drwx------          34]  400218_herman_plank_hw1 [error opening dir]
+├── [drwxr-xr-x          52]  examples
+│   ├── [-rw-r--r--         922]  COMMANDS.txt
+│   └── [-rw-r--r--          84]  run.me
+├── [-rw-r--r--           0]  hw1_400201_20260904_1927.tree
+└── [drwx-wx-wt          10]  SUBMISSION [error opening dir]
+
+9 directories, 7 files
