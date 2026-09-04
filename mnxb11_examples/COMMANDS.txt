@@ -1,0 +1,49 @@
+command [options] [arguments]
+
+
+---1st block
+echo -e  "\new"
+echo $0
+!!
+sleep 3
+touch my-first-file
+yes "Keep saying the same. You can stop me with ctrl+c or ctrl+d"
+whoami
+who
+factor
+xclock -d   
+xclock -update 3
+xeyes
+
+ ---2nd block: (reading files, pipes, redirection)
+ cat, head, tail, more, less 
+ wc, sort, nl, uniq, od
+ grep
+ ls | sort    
+ cat /etc/services | sort | nl 
+ cat > my_file.txt 
+ echo "stressed" | rev 
+shuf -i 1-6 -n 1
+echo -e "John\nPeter\nAlice\n" | shuf -n 1
+echo "My homework" > /dev/null
+cat /dev/null
+echo "i use chatgpt in this course" > .secret
+touch datafile{1..10}.dat  
+
+
+ ---3rd block:
+ whoami, w, last, id, groups
+ ls -la to see ownership, permissions
+ chmod (to change permissions)
+ 
+ ---4th block:
+ xterm & 
+ sleep 5s
+ ps -C sleep
+ top, ps aux, htop
+ uptime 
+ 
+--- final (example one-liner script):
+for i in 5 4 3 2 1; do echo "$i..."; sleep 1; done ; echo "that was it for Today :)"
+
+
