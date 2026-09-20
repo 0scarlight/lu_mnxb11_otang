@@ -1,0 +1,5 @@
+we are on the node
+cx09
+user	0m0.00s
+sys	0m0.00s
+slurmstepd: error: *** JOB 3665128 ON cx09 CANCELLED AT 2026-09-17T16:29:12 DUE TO TIME LIMIT ***

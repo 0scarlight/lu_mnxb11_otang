@@ -1,0 +1,5 @@
+/bin/time: cannot run ./worker.sh: Permission denied
+srun: error: cx09: task 0: Exited with exit code 126
+Command exited with non-zero status 126
+0.00user 0.00system 0:00.00elapsed 69%CPU (0avgtext+0avgdata 768maxresident)k
+0inputs+0outputs (0major+29minor)pagefaults 0swaps
