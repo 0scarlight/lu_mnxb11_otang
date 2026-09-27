@@ -5,17 +5,22 @@
 int main (){
     std::string your_name;
     std::vector<std::string> cool_people_list{"Bob", "Oscar", "Geoff", "Sushanta"};
-    std::cout << "what is your name?\n";
+    std::cout << "What is your name?\n";
     std::cin >> your_name;
 
+
+    bool name_match{false};
     for (auto name : cool_people_list){
         if (your_name == name) {
-        std::cout << "Why, hello there " << your_name << "!!!!"<< std::endl;
-        
-        } else {
-        std::cout << "Hello " << your_name << std::endl;
-        
+            name_match = true;
+            break;
         }
+    }
+
+    if (name_match == true){
+        std::cout << "Why, hello there " << your_name << std::endl ;
+    } else {
+        std::cout << "I don't belive we've met before, so greetings " << your_name << std::endl ;
     }
     
         
